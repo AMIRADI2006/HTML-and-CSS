@@ -57,7 +57,7 @@ body {
     line-height: 1.6;
     font-size: 1.6rem;
     font-family: "Iranian Sans";
-    background-color: var(--app-bg);
+    background-color: var(--Background);
 }
 
 .container {
@@ -74,9 +74,6 @@ a {
     text-decoration: none;
 }
 
-
-
-
 .header {
     font-family: "Iranian Sans";
 }
@@ -86,7 +83,6 @@ a {
     justify-content: space-between;
     align-items: center;
     margin: 50px 100px 50px 100px;
-
 }
 
 .header_wrapper_buttons {}
@@ -94,6 +90,7 @@ a {
 .header_button_shop {
     width: 60px;
     height: 50px;
+    cursor: pointer;
     background-color: var(--orange_primary);
     border: none;
     border-radius: 12px;
@@ -102,14 +99,14 @@ a {
 .header_button_user {
     width: 150px;
     height: 50px;
+    cursor: pointer;
     align-items: center;
     font-family: "Iranian Sans";
     font-size: 15px;
     font-weight: bold;
     background-color: var(--white);
-    border: none;
+    border: 1px solid #CBCBCB;
     border-radius: 12px;
-
 }
 
 /* .header_button {
@@ -127,17 +124,17 @@ a {
     gap: 8px;
 
 } */
-
 .header_wrapper_content {}
 
 .header_search {
     width: 800px;
     height: 50px;
+    cursor: pointer;
     font-size: 15px;
     font-family: "Iranian Sans";
     text-align: right;
     border-radius: 18px;
-    border: 2px solid #CBCBCB   ;
+    border: 2px solid #CBCBCB;
     background-color: #f9f9f9;
     margin-right: 250px;
     margin-bottom: 30px;
@@ -151,7 +148,7 @@ a {
     width: auto;
     height: 70px;
     font-size: 20px;
-    background-color:#f9f9f9;
+    background-color: #f9f9f9;
     border: 2px solid #CBCBCB;
     border-radius: 18px;
     display: flex;
@@ -159,7 +156,6 @@ a {
     align-items: center;
     margin: 0px 100px 0px 100px;
     padding: 0px 30px 0px 30px;
-
 }
 
 .header_menu_list_right {
@@ -169,16 +165,90 @@ a {
 
 .header_menu_list_left {
     display: flex;
-
-
     gap: 2rem;
 }
 
 .header_menu_list_item {
     color: #111111;
 }
-.list_icon_star{
+
+.list_icon_star {
     align-items: center;
     width: 35px;
+}
+
+.header_wrapper_main {
+    display: flex;
+    font-family: "Iranian Sans";
+    direction: rtl;
+    font-weight: bold;
+    margin: 50px 100px 50px 100px;
 
 }
+
+.p_header_main_content1 {
+    font-size: 18px;
+    color: #606060;
+}
+
+.h1_header_main_content2 {
+    font-size: 35px;
+    color: var(--Secondary);
+}
+
+.h2_header_main_content3 {
+    font-size: 40px;
+    color: var(--primary);
+}
+
+.p_header_main_content4 {
+    width: 500px;
+    font-size: 18px;
+    color: #606060;
+}
+
+.wrapper_btn_main_content5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    background-color: var(--Secondary);
+    color: var(--white);
+    font-family: "Iranian Sans";
+    font-size: 18px;
+    border-radius: 12px;
+    gap: 1rem;
+}
+
+.wrapper_main_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper_main_btn_content{
+    margin:50px 200px 0px 0px;
+}
+.wrapper_main_btn {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background-color: #EBF5FF;
+    margin-bottom: 50px;
+}
+
+/* .wrapper_main_text_content{
+    margin-top: 50px ;
+}
+.b{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+} */
