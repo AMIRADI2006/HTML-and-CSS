@@ -85,7 +85,12 @@ a {
     margin: 50px 100px 50px 100px;
 }
 
-.header_wrapper_buttons {}
+.header_wrapper_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
 
 .header_button_shop {
     width: 60px;
@@ -97,6 +102,9 @@ a {
 }
 
 .header_button_user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 150px;
     height: 50px;
     cursor: pointer;
@@ -165,16 +173,20 @@ a {
 
 .header_menu_list_left {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .header_menu_list_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
     color: #111111;
 }
 
-.list_icon_star {
+.list_icon{
     align-items: center;
-    width: 35px;
+    width:23px;
 }
 
 .header_wrapper_main {
@@ -227,9 +239,11 @@ a {
     justify-content: center;
     align-items: center;
 }
-.wrapper_main_btn_content{
-    margin:50px 200px 0px 0px;
+
+.wrapper_main_btn_content {
+    margin: 50px 200px 0px 0px;
 }
+
 .wrapper_main_btn {
     width: 100px;
     height: 100px;
@@ -252,3 +266,35 @@ a {
     align-items: center;
     margin-bottom: 50px;
 } */
+.services {
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10rem;
+    background-color: #F4FAFF;
+}
+.service {
+    width: 200px;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 12px;
+    cursor: pointer;
+    
+}
+.service-text{
+    direction: rtl;
+    width: 400px;
+    font-size: 23px;
+    font-weight: bold;
+    color: var(--Secondary);
+}
+.h4-service-content{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--Secondary);
+}
