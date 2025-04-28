@@ -12,6 +12,7 @@
     --Background: #FFFFFF;
     --primary_Back: #FEEEE8;
     --Secondary_Back: #EBF5FF;
+    --border:#CBCBCB;
     /* Primary Color Palette */
     ---Primary_900: #190803;
     ---Primary_850: #4B1908;
@@ -54,6 +55,7 @@ html {
 }
 
 body {
+    direction: rtl;
     line-height: 1.6;
     font-size: 1.6rem;
     font-family: "Iranian Sans";
@@ -61,11 +63,10 @@ body {
 }
 
 .container {
-    width: 100%;
+    /* width: 100%; */
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 50px 100px 50px 100px;
 }
 
 /* Reset Styles */
@@ -82,7 +83,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 100px 50px 100px;
 }
 
 .header_wrapper_buttons {
@@ -144,7 +144,7 @@ a {
     border-radius: 18px;
     border: 2px solid #CBCBCB;
     background-color: #f9f9f9;
-    margin-right: 250px;
+    margin-right: 150px;
     margin-bottom: 30px;
 }
 
@@ -162,7 +162,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 100px 0px 100px;
     padding: 0px 30px 0px 30px;
 }
 
@@ -184,9 +183,9 @@ a {
     color: #111111;
 }
 
-.list_icon{
+.list_icon {
     align-items: center;
-    width:23px;
+    width: 23px;
 }
 
 .header_wrapper_main {
@@ -194,7 +193,7 @@ a {
     font-family: "Iranian Sans";
     direction: rtl;
     font-weight: bold;
-    margin: 50px 100px 50px 100px;
+    margin: 50px 0px 50px 0px;
 
 }
 
@@ -266,34 +265,65 @@ a {
     align-items: center;
     margin-bottom: 50px;
 } */
+ .wrapper_main_cart{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin: 100px 0px 50px 0px;
+ }
+ .main_cart{
+    height: 500px;
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    position: relative;
+ }
+ .img_main_cart{
+    
+ }
+ .inside_main_cart{
+    padding: 20px 20px 0px 0px;
+ }
+ .h4_inside_main_cart{
+    font-size: 20px;
+ }
+ .h5_inside_main_cart{
+    font-size: 18px;
+ }
+.h6_inside_main_cart{
+    font-size: 15px;
+    color: var(--dark-btn);
+ }
 .services {
     height: 300px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 10rem;
     background-color: #F4FAFF;
 }
+
 .service {
     width: 200px;
     height: 200px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--white);
     border-radius: 12px;
     cursor: pointer;
-    
+
 }
-.service-text{
+
+.service-text {
     direction: rtl;
     width: 400px;
     font-size: 23px;
     font-weight: bold;
     color: var(--Secondary);
 }
-.h4-service-content{
+
+.h4-service-content {
     font-size: 18px;
     font-weight: bold;
     color: var(--Secondary);
