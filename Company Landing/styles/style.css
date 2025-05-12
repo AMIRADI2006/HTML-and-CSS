@@ -335,18 +335,157 @@ a {
 }
 
 .wrapper_baner1 {
-    background-image: url(/images/baners/baner.svg);
+    background-image: url(../images/baners/baner.svg);
     width: 100%;
-    height: 600px;   
+    height: 600px;
     background-repeat: no-repeat;
-    
+    object-fit: fill;
     background-size: cover;
 }
-.h3_baner{
+
+.h3_baner {
     font-weight: bold;
     font-size: 18px;
 }
-.baner_content{
+
+.baner_content {
     line-height: 50px;
-    padding:200px 200px 0px 0px;
+    padding: 200px 200px 0px 0px;
+}
+
+.wrapper-footer{
+    margin: 0rem 10rem 0rem 10rem;
+}
+
+footer {
+    font-family: "Iranian Sans";
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 40px;
+    
+}
+
+footer a {
+    color: rgb(138, 138, 138);
+    transition: all .2s ease-in-out;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer a::before {
+    content: "•";
+    margin-left: 5px;
+}
+
+footer a>p {
+    color: rgb(255, 72, 0);
+    margin-right: 5px;
+}
+
+.footer-bottom {
+    border-top: 1px solid gray;
+    font-size: 13px;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+
+}
+
+.footer-top-right {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.footer-top-right>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top-right>div>* {
+    display: flex;
+}
+
+.footer-top-right div h3{
+    margin-bottom: 4rem;
+}
+
+.footer-img-icon {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+.footer-img-icon img{
+    cursor: pointer;
+}
+
+.footer-img-namad{
+    display: flex;
+    gap:3rem;
+    margin-bottom: 3rem;
+}
+
+.footer-img-namad img{
+    cursor: pointer;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-middle>div:first-child {
+    width: 40%;
+}
+
+.footer-middle>div:first-child>p {
+    color: rgb(158, 158, 158);
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+
+footer form {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer form>button {
+    font-family: "Iranian Sans";
+    background-color: #E14C19;
+    color: white;
+    border: 1px solid #E14C19;
+    border-radius: 7px;
+    transition: all .2s ease-in-out;
+    width: 50px;
+}
+
+footer form>button:hover {
+    background-color: transparent;
+    color: #E14C19;
+    cursor: pointer;
+}
+
+footer form input {
+    font-family: "Iranian Sans";
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
 }
