@@ -1,0 +1,12 @@
+@font-face {
+    font-family:"Iranian Sans";
+    src: url("../fonts/Iranian\ Sans.ttf") format("truetype");
+}
+@font-face {
+    font-family:"Roboto_Condensed-Medium";
+    src: url("../font/Roboto_Condensed-Medium.ttf") format("truetype");
+}
+
+*{
+    font-family: "Roboto_Condensed-Medium";
+}
